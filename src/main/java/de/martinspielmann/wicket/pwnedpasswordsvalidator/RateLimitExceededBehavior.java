@@ -8,6 +8,6 @@ package de.martinspielmann.wicket.pwnedpasswordsvalidator;
  *
  * @author Martin Spielmann
  */
-public enum RateLimitExceededBehavior {
+public enum RateLimitExceededBehavior 
     FAIL, RETRY, IGNORE
 }

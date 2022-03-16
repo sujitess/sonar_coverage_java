@@ -16,10 +16,6 @@ public enum Status {
     TOO_MANY_REQUESTS(429);
 
     private int code;
-    public int abc;
-    public int bcd;
-    public int aws;
-    public int jdk;
     private static final Map<Integer, Status> map = new HashMap<>();
 
     static {

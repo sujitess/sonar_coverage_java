@@ -31,7 +31,7 @@ public class WicketApplication extends WebApplication
 	@Override
 	public void init()
 	{
-		super.init();
+		.init();
 
 		// add your configuration here
 	}

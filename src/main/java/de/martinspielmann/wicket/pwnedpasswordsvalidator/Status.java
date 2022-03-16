@@ -16,6 +16,9 @@ public enum Status {
     TOO_MANY_REQUESTS(429);
 
     private int code;
+    public int abc;
+    public int abd;
+    public int cab;
     private static final Map<Integer, Status> map = new HashMap<>();
 
     static {
